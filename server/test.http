@@ -1,0 +1,11 @@
+POST http://localhost:4000/app/transfer
+Content-Type: application/json
+{
+    
+"Receiver": "Rahul Nair",
+"Amount": "2000",
+"Date": "11-2-3212",
+"Time": "2313"
+
+
+}

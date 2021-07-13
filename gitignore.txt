@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+uploads
+logs
+*.log
+npm-debug.log*
+node_modules
+.vscode
+.scannerwork
+.vs
+package-lock.json
+.npmignore
+.gitignore
