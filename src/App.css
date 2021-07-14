@@ -47,7 +47,7 @@
 
   width: 100%;
   padding-top: 20px;
-  bottom: 0;
+  /* bottom: 0; */
 }
 .table {
   margin-top: 20px;
@@ -55,4 +55,9 @@
 .transt {
   /* margin: 20px; */
   padding: 50px;
+}
+
+.content{
+  position: relative;
+  top:0;
 }

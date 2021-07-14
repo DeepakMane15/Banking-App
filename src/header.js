@@ -4,12 +4,11 @@ import logo from './images/logo.jpg'
 class Header extends Component {
     render() {
         return (
-            <div style={{display: "absolute"}}>
-                <>
+            <div>
                 
-  <Navbar style={{backgroundColor: "#021b22"}}>
+  <Navbar style={{backgroundColor: "#1b3440"}}>
     <Container >
-      <Navbar.Brand href="#home" style={{color:"white"}}>
+      <Navbar.Brand href="/" style={{color:"white"}}>
         <img
           alt=""
           src={logo}
@@ -23,7 +22,6 @@ class Header extends Component {
       </Navbar.Brand>
     </Container>
   </Navbar>
-  </>
   </div>
         )}
     }
