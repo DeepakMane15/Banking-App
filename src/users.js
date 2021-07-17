@@ -61,7 +61,7 @@ class Users extends Component {
         : null
       }
 
-<h3>Customer List</h3>
+<h3 style={{padding: "10px", textAlign: "center"}}>Customer List</h3>
         <Table striped bordered hover size="sm" >
           <thead>
             <tr>

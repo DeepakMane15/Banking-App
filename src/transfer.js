@@ -11,6 +11,7 @@ class Transfer extends Component {
         amt: false,
         senderEr: false,
         receiverEr: false,
+        success: false,
         sender: "",
         receiver: "",
         amount: ""
@@ -78,6 +79,12 @@ class Transfer extends Component {
         this.setState({ sender: "", receiver: "", amount: "" })
     }
 
+    success =() => {
+        this.setState({
+            success: true
+        })
+}
+
     render() {
         return (
             <Container className="transt">
@@ -111,6 +118,13 @@ class Transfer extends Component {
                         </div>
                         : null
                 }
+                {
+                    this.state.success ?
+                    <div className="alert alert-info" role="alert" style={{ textAlign: "center" }}>
+                            <strong>Amount transferred successfully!</strong><a href="/users" class="alert-link"></a>
+                        </div>
+                        : null
+                }
                 <h3 style={{ textAlign: "center", color: "brown" }}>Money Transfer</h3>
                 <Form onSubmit={this.transfer}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -132,7 +146,7 @@ class Transfer extends Component {
 
                     </Form.Group>
 
-                    <Button variant="primary" type="submit">
+                    <Button variant="primary" type="submit"onClick={this.success}>
                         Submit
                     </Button>
                 </Form>

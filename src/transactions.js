@@ -44,7 +44,7 @@ class Transactions extends Component {
   }
   render() {
     return (
-      <Container className="table">
+      <Container className="transaction">
 
       <h3>Transaction History</h3>
 

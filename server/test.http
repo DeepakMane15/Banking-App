@@ -1,4 +1,4 @@
-POST http://localhost:4000/app/transfer
+POST http://localhost:4000/app/update
 Content-Type: application/json
 {
     

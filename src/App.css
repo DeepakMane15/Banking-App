@@ -43,21 +43,31 @@
 .footer {
   background-color: #021b22;
   /* position: absolute; */
+  /* position: sticky; */
   /* z-index: ; */
 
   width: 100%;
   padding-top: 20px;
   /* bottom: 0; */
 }
+div .footer {
+  /* bottom:0px !important; */
+}
 .table {
-  margin-top: 20px;
+  margin-top: 30px;
+  
 }
 .transt {
   /* margin: 20px; */
-  padding: 50px;
+  padding: 80px;
 }
 
 .content{
   position: relative;
   top:0;
+}
+.transaction {
+
+  margin-top: 30px;
+  padding: 70px;
 }

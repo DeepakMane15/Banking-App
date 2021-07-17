@@ -19,7 +19,7 @@ class Home extends Component {
        <Container>
            <Row style={{padding: "200px"}}>
                <Col>
-               <Button  style={{width: "180px"}} variant="outline-warning" href="/users">Users List</Button>{' '}
+               <Button  style={{width: "180px"}} variant="outline-success" href="/users">Users List</Button>{' '}
                </Col>
                <Col>
                <Button style={{width: "180px"}} variant="outline-danger" href="/transfer">Transfer</Button>{' '}
