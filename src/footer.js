@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { Icon, InlineIcon } from '@iconify/react';
 // import mailIcon from '@iconify-icons/ci/mail';
 // import phoneIcon from '@iconify-icons/ci/phone';
 
